@@ -18,7 +18,7 @@ The objective is to analyze housing credit loans that have general data from the
 
 ## Data Cleanup & Analysis:
   -	Transformation steps: 
-    ●	Read CSV.
-    ●	Summarize information by Municipalities.
-    ●	Join the datasets by Municipalities’ code.
+    -	Read CSV.
+    -	Summarize information by Municipalities.
+    -	Join the datasets by Municipalities’ code.
   -	Database: relational database.
