@@ -2,7 +2,7 @@
 
 ## Project Title:
 
-Housing loans analysis for Mexican municipalities.
+Housing loans analysis for Mexican Municipalities.
 
 ## Team Members: 
 
@@ -19,6 +19,6 @@ The objective is to analyze housing credit loans that have general data from the
 ## Data Cleanup & Analysis:
   -	Transformation steps: 
     -	Read CSV.
-    -	Summarize information by Municipalities.
+    -	Summarize the information by Municipalities.
     -	Join the datasets by Municipalities’ code.
   -	Database: relational database.
