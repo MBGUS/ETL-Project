@@ -35,7 +35,7 @@ A. Concatenate elements from both data sets were chosen for their similarities
 - “Clave de Municipio”
 
 B. Creation of a Schema for the relational database utilizing app QuickDBD.
-![ERD.png](ERD.png)
+![Images/ERD.png](Images/ERD.png)
 
 C. Data was transformed for readability using Jupyter Notebook, in the following order:
 - Load Datasets to pandas as Data Frames.
@@ -51,6 +51,8 @@ C. Data was transformed for readability using Jupyter Notebook, in the following
   - rango_edad_df		
 - Remove rows with summary data by municipality.
 
+![Images/JupyterNotebook.png](Images/JupyterNotebook.png)
+
 ### LOAD
 
 The team determined the best direction to move towards was to use a relational database to maintain integrity of the information provided in the initial datasets, avoiding changes that could affect the database, when new information is loaded or changed.
@@ -60,3 +62,5 @@ The team determined the best direction to move towards was to use a relational d
 - Connect Jupyter notebook to SQL databases.
 - Loaded information into database.
 - Perform Queries
+
+![Images/Query.png](Images/Query.png)
