@@ -42,20 +42,20 @@ C. Data was transformed for readability using Jupyter Notebook, in the following
 - Change and match the names of columns.
 - Normalize data by creating different tables from the original datasets.
 - The following books were created within Jupyter notebooks:
-i. Entidad_table
-ii. municipality_table
-iii. end_inegi_df
-iv. sniiv_final_df
-v. gender_df
-vi. rango_edad_df		
+-- Entidad_table
+-- municipality_table
+-- end_inegi_df
+-- sniiv_final_df
+-- gender_df
+-- rango_edad_df		
 - Remove rows with summary data by municipality.
 
 ### LOAD
 
 The team determined the best direction to move towards was to use a relational database to maintain integrity of the information provided in the initial datasets, avoiding changes that could affect the database, when new information is loaded or changed.
 
-A.	Create Database on pgAdmin.
-B.	Run schema file (queries.sql) to add tables and constraints.
-C.	Connect Jupyter notebook to SQL databases.
-D.	Loaded information into database.
-E.	Perform Queries
+- Create Database on pgAdmin.
+- Run schema file (queries.sql) to add tables and constraints.
+- Connect Jupyter notebook to SQL databases.
+- Loaded information into database.
+- Perform Queries
