@@ -42,12 +42,12 @@ C. Data was transformed for readability using Jupyter Notebook, in the following
 - Change and match the names of columns.
 - Normalize data by creating different tables from the original datasets.
 - The following books were created within Jupyter notebooks:
-- - Entidad_table
-- - municipality_table
-- - end_inegi_df
-- - sniiv_final_df
-- - gender_df
-- - rango_edad_df		
+  - Entidad_table
+  - municipality_table
+  - end_inegi_df
+  - sniiv_final_df
+  - gender_df
+  - rango_edad_df		
 - Remove rows with summary data by municipality.
 
 ### LOAD
