@@ -19,6 +19,7 @@ To achieve the objective for the project the following steps were taken:
 Data was acquired from two different CSV sources: 1) from INEGI (Instituto Nacional de Estadística y Geografía) and 2)SNIIV (Sistema Nacional de Información e Indicadores de Vivienda).
 
 Sources:
+
 https://www.inegi.org.mx/programas/ccpv/2020/default.html#Datos_abiertos
 https://sniiv.conavi.gob.mx/reportes/datos_abiertos.aspx
 
