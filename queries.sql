@@ -44,3 +44,16 @@ CREATE TABLE "SNIIV" (
 	FOREIGN KEY ("ID_Genero") REFERENCES "Genero"("ID"),
 	FOREIGN KEY ("ID_Rango_Edad") REFERENCES "Rango_Edad"("ID")
 );
+
+-- Querying the full table
+SELECT en."Entidad_Fed", mu."Municipio", ine."Pob_Total", ine."Pob_Fem", ine."Pob_Mas", ge."Genero", ra."Rango", sn."Prestamo"
+FROM "INEGI" ine
+LEFT JOIN "SNIIV" sn ON ine."Clave_Municipio" = sn."Clave_Municipio"
+LEFT JOIN "MUNICIPIO" mu ON ine."Clave_Municipio" = mu."Clave_Municipio"
+LEFT JOIN "ENTIDAD" en ON mu."Clave_Entidad" = en."Clave_Entidad"
+LEFT JOIN "Genero" ge ON sn."ID_Genero" = ge."ID"
+LEFT JOIN "Rango_Edad" ra ON sn."ID_Rango_Edad" = ra."ID";
+
+
+
+
